@@ -77,3 +77,11 @@ html,body{
 #footer{
     bottom: 0;
 }
+.kk{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    background: linear-gradient(92.26deg, #EDFAFF -0.77%, #BEE1F8 96.41%);
+}

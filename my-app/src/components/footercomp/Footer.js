@@ -106,6 +106,9 @@ const Footer = () => {
 				</Col>
 			</Row>
 		</Container>
+		<Container fluid>
+			<Row className='kk px-md-5 px-sm-2'>Made with Love 💜 by KONNEXIONS (IT Society)</Row>
+		</Container>
 	</div>
   )
 }
