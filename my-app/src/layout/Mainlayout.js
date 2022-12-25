@@ -1,10 +1,11 @@
-// call your components here
-//style them in mainlayout.css
 import React from 'react'
+import Footer from '../components/Footer'
 
 const Mainlayout = () => {
   return (
-    <div>Mainlayout</div>
+    <div>
+      <Footer />
+    </div>
   )
 }
 
