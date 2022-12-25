@@ -1,11 +1,16 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+
 import MainLayout from './layout/Mainlayout';
+
 
 function App() {
   return (
     <div className="App">
+      <countCompObject />
       <MainLayout />
+      
     </div>
   );
 }
