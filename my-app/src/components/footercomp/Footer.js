@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import konnections_logo from '../assets/konnections logo.png'
-import kiit_logo from '../assets/kiit logo.png'
-import Optics_logo from '../assets/Optics logo.png'
+import konnections_logo from '../../assets/konnections logo.png'
+import kiit_logo from '../../assets/kiit logo.png'
+import Optics_logo from '../../assets/Optics logo.png'
+import Button from '../buttoncomp/Button';
 import './footer.css';
 
 import Container from 'react-bootstrap/Container';
@@ -22,6 +23,10 @@ const Footer = () => {
 		};
 	}, []);
 
+	const handleClick = () => {
+		window.open('https://my.forms.app/form/639ad4142db11127ce0c4f4f', '_blank');
+	};
+
   return (
 	<div id="footer">
 		<Container fluid className="oneee p-md-5 p-sm-3">
@@ -32,11 +37,7 @@ const Footer = () => {
 						<p>YAAAAAYY!!!!</p>
 					</Row>
 					<Container className="button1 mt-md-5 m-sm-2">
-						<button>
-							<div className="reg px-3">
-								<a href="https://my.forms.app/form/639ad4142db11127ce0c4f4f">Click to Register</a>
-							</div>
-						</button>
+            <Button onClick={handleClick} text="Click to Register" />
 					</Container>
 				</Col>
 				<Col md={5} className="second p-md-3 p-sm-2">
@@ -96,13 +97,11 @@ const Footer = () => {
 				<Col md={4} className="logo1 pt-md-3">
 					<Image fluid src={ kiit_logo } alt="kiit" width={'250vw'}/>
 				</Col>
-				<Col md={8} className="logotxt pt-md-2 justify-content-end">
+				<Col md={{ span: 6, offset: 2 }} className="logotxt pt-md-2 justify-content-end">
 					<Row className="my-md-2">
-						<Col md={3}><b>In collaboration with:</b></Col>
-						<Col md={9}>
-							<Image fluid className="mx-3" src={ konnections_logo } alt="" width={'250vw'}/>
-							<Image fluid className="mx-3" src={ Optics_logo } alt="" width={'125vw'}/>
-						</Col>
+						<Col md={4}><b>In collaboration with:</b></Col>
+						<Col><Image fluid className="mx-3" src={ konnections_logo } alt="" width={'250vw'}/></Col>
+						<Col><Image fluid className="mx-3" src={ Optics_logo } alt="" width={'125vw'}/></Col>
 					</Row>
 				</Col>
 			</Row>
