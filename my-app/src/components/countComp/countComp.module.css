@@ -24,3 +24,63 @@ p {
   display: flex;
   justify-content: space-evenly;
 }
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+  .mainClass .mainClassRight h1 {
+    font-size: 1.5rem;
+  }
+  .mainClass .mainClassRight p {
+    font-size: 0.8;
+  }
+  img {
+    width: 70px;
+    height: 70px;
+    margin-right: 12px;
+  }
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1000px) {
+  .mainClass .mainClassRight h1 {
+    font-size: 1rem;
+  }
+  .mainClass .mainClassRight p {
+    font-size: 0.75rem;
+  }
+  img {
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 750px) {
+  .countCompMappedObject {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .mainClass {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .mainClass .mainClassRight h1 {
+    font-size: 1.5rem;
+  }
+  .mainClass .mainClassRight p {
+    font-size: 0.8;
+  }
+  img {
+    width: 70px;
+    height: 70px;
+    margin-right: 12px;
+  }
+  .mainClass {
+    width: 100%;
+  }
+  .countCompMappedObject {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+}
