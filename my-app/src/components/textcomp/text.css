@@ -1,42 +1,51 @@
 .textmaincont {
- 
-        display: flex;
-        width: 80%;
-    margin-bottom: 100px;
-    /* justify-content: space-between; */
-
+  display: flex;
+  width: 80%;
+  margin-bottom: 100px;
+  /* justify-content: space-between; */
 }
+.textmaincont:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}
+.textmaincont:nth-of-type(2n) .imgcont {
+  margin-left: 0;
+  margin-right: 80px;
+}
+
+.textmaincont:nth-of-type(4) {
+  flex-direction: unset;
+}
+
 .image {
-    width: 200px;
-    float: left;
+  width: 200px;
+  float: left;
 }
 
 .imgcont {
-    margin-left: 120px;
+  margin-left: 120px;
 }
 
 .headinginn {
-    border-bottom: 5px #48A1C7 solid;
+  border-bottom: 5px #48a1c7 solid;
 }
 
 /* .heading{
     margin: 0 150px;
 } */
 .innertext {
-    /* width:70%; */
-    margin-top: 25px;
-    text-align: justify;
+  /* width:70%; */
+  margin-top: 25px;
+  text-align: justify;
 }
 
-@media only screen and (max-width:1095px) {
-
-    .imgcont {
-        margin-left: 80px;
-    }
+@media only screen and (max-width: 1095px) {
+  .imgcont {
+    margin-left: 80px;
+  }
 }
 
 /* @media only screen and (max-width:995px) { */
-    /* .textmaincont {
+/* .textmaincont {
         margin-left: 100px;
         margin-right: 100px;
     } */
@@ -48,46 +57,38 @@
 
 } */
 
-@media only screen and (max-width:800px) {
-    .image {
-        width: 150px;
-    }
+@media only screen and (max-width: 800px) {
+  .image {
+    width: 150px;
+  }
 
-    .imgcont {
-        margin-left: 40px;
-        padding-top: 40px;
-
-    }    
+  .imgcont {
+    margin-left: 40px;
+    padding-top: 40px;
+  }
 }
-@media only screen and (max-width:650px) {
-    .textmaincont {
-        width: 90%;
-        justify-content: center;
-    }
+@media only screen and (max-width: 650px) {
+  .textmaincont {
+    width: 90%;
+    justify-content: center;
+  }
 
-    .imgcont {
-        /* margin-right: 20px; */
-        padding-top: 40px;
-
-    }
-
-    
+  .imgcont {
+    /* margin-right: 20px; */
+    padding-top: 40px;
+  }
 }
-@media only screen and (max-width:550px) {
-    
-    .imgcont{
-        margin-left: 15px;
-    }
-    h2{
-        font-size: 20px;
-    }
+@media only screen and (max-width: 550px) {
+  .imgcont {
+    margin-left: 15px;
+  }
+  h2 {
+    font-size: 20px;
+  }
 }
 
-@media only screen and (max-width:450px) {
-    
-    
-    .imgcont {
-        padding-top: 60px;
-
-    }
+@media only screen and (max-width: 450px) {
+  .imgcont {
+    padding-top: 60px;
+  }
 }
