@@ -2,12 +2,16 @@
 //style them in mainlayout.css
 import React from 'react'
 import CountComp from '../components/countComp/CountComp'
+import countObjectData from '../components/countComp/CountObjects'
 
-const Mainlayout = () => {
+const Mainlayout = (data) => {
   return (
     <div>
       Mainlayout
-      <CountComp />
+      {
+        countObjectData.map(data, i =>
+          <CountComp data={data} key={i} />)
+      }
     </div>
   )
 }
