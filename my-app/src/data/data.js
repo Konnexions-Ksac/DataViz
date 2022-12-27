@@ -35,4 +35,9 @@ export const Dataofpage = [
     heading: "",
     para: `<p><h3 style="color:#0B476E;">ROUND 2:- 14th January:</h3><br>This will be the final round of DataViz, where the participants will have to <b>visualize the data</b> provided for the second round. The data visualization will be done in Excel. Each team or individual will get 10 minutes to explain their visualization, and 5 minutes will be dedicated to questioning. Afterward, the judges will review the work done by the participants and declare the final winner and runners-up of DataViz.</p>`,
   },
+  {
+    img: '',
+    heading: "ORGANIZING COMMITTEE",
+    para: "",
+  },
 ];

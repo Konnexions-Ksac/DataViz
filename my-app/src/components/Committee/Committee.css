@@ -1,4 +1,4 @@
-.section-title {
+/* .section-title {
   display: inline-block;
   position: relative;
   font-size: 25px;
@@ -14,17 +14,22 @@
   background-color: #5a7ec6;
   bottom: 0;
   left: 0;
-}
-
+} */
+/* .orgcomm{
+  border-bottom: 5px #48a1c7 solid;
+} */
+/* .orgcommdiv{
+margin-left: 80px;
+} */
 .section-container {
   max-width: 1240px;
   margin: 0 auto;
   padding: 0 15px;
 }
-
+ 
 .committee {
-  padding: 100px 0;
-}
+  padding: 0 0 50px 0;
+} 
 
 .committe-container {
   display: flex;

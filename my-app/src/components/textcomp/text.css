@@ -20,6 +20,14 @@
 .textmaincont:nth-of-type(4) .imgcont{
       padding-top: unset;
 }
+.textmaincont:nth-of-type(7) {
+  flex-direction: unset;
+  margin-bottom: unset;
+
+}
+.textmaincont:nth-of-type(7) .imgcont{
+      padding-top: unset;
+}
 .image {
   width: 200px;
   /* float: left; */

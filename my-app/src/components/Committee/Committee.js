@@ -23,7 +23,7 @@ const Committee = () => {
   return (
     <div className="committee">
       <div className="section-container">
-        <h2 className="section-title">Organizing Committee</h2>
+        
         <div className="committe-container">
           <button onClick={handleLeft} className="slider-btn">
             <MdKeyboardArrowLeft />
