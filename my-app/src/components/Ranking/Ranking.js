@@ -12,8 +12,8 @@ const Ranking = () => {
           <div className="box">
             <div className="box-data">
               <div className="box-credential">
-                <h2 className="box-name">Mehedi</h2>
-                <h2>12345678</h2>
+                <h2 className="box-name">______</h2>
+                <h2>________</h2>
               </div>
             </div>
             <div className="underlay underlay-2"></div>
@@ -28,8 +28,8 @@ const Ranking = () => {
           <div className="box">
             <div className="box-data">
               <div className="box-credential">
-                <h2 className="box-name">Mehedi</h2>
-                <h2>12345678</h2>
+                <h2 className="box-name">______</h2>
+                <h2>________</h2>
               </div>
             </div>
             <div className="underlay underlay-1"></div>
@@ -43,8 +43,8 @@ const Ranking = () => {
           <div className="box">
             <div className="box-data">
               <div className="box-credential">
-                <h2 className="box-name">Mehedi</h2>
-                <h2>12345678</h2>
+                <h2 className="box-name">______</h2>
+                <h2>________</h2>
               </div>
             </div>
             <div className="underlay underlay-3"></div>

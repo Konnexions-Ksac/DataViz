@@ -105,9 +105,7 @@
   box-shadow: -80px 80px 70px 0 rgba(153, 51, 239, 0.35);
 }
 
-/* Remove display property to show name and roll */
 .box-credential {
-  display: none !important;
   padding: 10px 20px;
   display: flex;
   flex-direction: column;
