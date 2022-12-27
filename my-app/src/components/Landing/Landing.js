@@ -74,7 +74,7 @@ const Landing = () => {
               <div className="text3">
                 For those who want to foster there knowledge.
               </div>
-              <p>button</p>
+              <button>click here</button>
               <div className="lowerdivcoll">
                 <div>
                   <p><i>In collaboration with:</i></p>

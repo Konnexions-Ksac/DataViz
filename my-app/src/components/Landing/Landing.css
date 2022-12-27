@@ -57,6 +57,8 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  z-index: 3;
 }
 .righttextdiv{
   
@@ -64,26 +66,31 @@
   justify-content: space-between;
   /* flex-direction: column; */
   width: 350px;
+  z-index: 3;
 }
 .ellipse4
 {
   position: absolute;
-  width: 493px;
-  height: 490px;
-  left: 83%;
-  top: -271px;
+  width: 200px;
+  height: 200px;
+  right: 0px;
+  top: 0px;
   background: linear-gradient(180deg, #CA7BF2 -24.52%, #B321FD 137.26%);
   box-shadow: -3px 2px 26px 2px rgb(0 0 0 / 25%);
-  border-radius: 50%;
   z-index: -1;
+  border-radius: 0 0 0 100%;
+  /* -moz-border-radius: 0 0 0 100px;
+  -webkit-border-radius: 0 0 0 100px; */
+  
 }
+
 .ellipse5{
   z-index: -2;
   position: absolute;
   width: 157px;
   height: 157px;
   top: 100px;
-  left: 87%;
+  right: 25px;
   background: linear-gradient(180deg, #7BABF2 -24.52%, #48A1C7 137.26%);
   filter: blur(15px);
   border-radius: 50%;
@@ -139,6 +146,7 @@
 .lowerdiv{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .lowerleftdiv{
   display: flex;
@@ -186,6 +194,7 @@
 .rightimage{
   width: 500px;
   padding-top: 80px;
+  padding: 10px;
 
 }
 .lowerdivcoll{
@@ -246,3 +255,41 @@
   border-radius: 10px;
   border-color: transparent;
 } */
+.lowerleftdiv button {
+  color: white;
+  margin-top: 70px;
+  font-size: 35px;
+  width: 371px;
+  height: 80px;
+  left: 685px;
+  top: 597px;
+  background: radial-gradient(123.12% 1493.79% at 3.65% 0%, #48A1C7 0%, #0B476E 100%);
+  border-radius: 10px;
+  border-color: transparent;
+} 
+@media only screen and (max-width: 1430px) {
+  .ellipse6
+  {
+    display: none;
+  }
+  .ellipse7
+  {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1405px) {
+  .lowerdiv
+  {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .landingdiv {
+    margin:50px 10vw; 
+  }
+  .lowerleftdiv *{
+    line-height: normal;
+    z-index: 3;
+  }
+}
