@@ -10,7 +10,8 @@ const Mainlayout = () => {
       Mainlayout
       {
         countObjectData.map((data, i) =>
-          <CountComp data={data} key={i} />)
+        (
+          <CountComp data={data} key={i} />))
       }
     </div>
   )
