@@ -2,31 +2,49 @@
   /* background-color: black; */
   display: flex;
   justify-content: space-evenly;
-  width: 18%;
+  /* width: 18%; */
 }
 img {
   width: 100px;
   height: 100px;
   margin-right: 15px;
 }
-.mainClass .mainClassRight h1,
+.countCompMappedObject .mainClass .mainClassRight h1,
 p {
   color: white;
 }
-.mainClass .mainClassRight h1 {
+.countCompMappedObject .mainClass .mainClassRight h1 {
   font-size: 3rem;
 }
 
 .countCompMappedObject {
   display: flex;
   justify-content: space-evenly;
+  width: 18%;
 }
+
+@media only screen and (min-width: 401px) and (max-width: 750px) {
+  .countCompMappedObject {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .countCompMappedObject {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+}
+
 @media only screen and (min-width: 1001px) and (max-width: 1200px) {
-  .mainClass .mainClassRight h1 {
+  .countCompMappedObject .mainClass .mainClassRight h1 {
     font-size: 1.5rem;
   }
-  .mainClass .mainClassRight p {
-    font-size: 0.8;
+  .countCompMappedObject .mainClass .mainClassRight p {
+    font-size: 0.8rem;
   }
   img {
     width: 70px;
@@ -36,10 +54,10 @@ p {
 }
 
 @media only screen and (min-width: 751px) and (max-width: 1000px) {
-  .mainClass .mainClassRight h1 {
+  .countCompMappedObject .mainClass .mainClassRight h1 {
     font-size: 1rem;
   }
-  .mainClass .mainClassRight p {
+  .countCompMappedObject .mainClass .mainClassRight p {
     font-size: 0.75rem;
   }
   img {
@@ -51,33 +69,23 @@ p {
 
 @media only screen and (min-width: 401px) and (max-width: 750px) {
   .countCompMappedObject {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-  }
-  .mainClass {
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  .mainClass .mainClassRight h1 {
+  .countCompMappedObject .mainClass .mainClassRight h1 {
     font-size: 1.5rem;
   }
-  .mainClass .mainClassRight p {
-    font-size: 0.8;
+  .countCompMappedObject .mainClass .mainClassRight p {
+    font-size: 0.8rem;
   }
   img {
     width: 70px;
     height: 70px;
     margin-right: 12px;
   }
-  .mainClass {
-    width: 100%;
-  }
   .countCompMappedObject {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
+    width: 100%;
   }
 }

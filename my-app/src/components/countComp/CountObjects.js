@@ -7,7 +7,7 @@ export const countObjectData = [
   },
   {
     img: image,
-    textTop: "50",
+    textTop: "60",
     textBottom: "Lorem ipsum dolor, sit amet"
   },
   {
