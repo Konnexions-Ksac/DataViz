@@ -5,15 +5,20 @@ import Text from "../components/textcomp/Text";
 import { Dataofpage } from "../data/data.js";
 import Cardcomp from "../components/cardcomp/Cardcomp";
 import { Dataofcard } from "../data/carddata.js";
+import Committee from "../components/Committee/Committee";
+import Ranking from "../components/Ranking/Ranking";
 import "./mainlayout.css"
 const Mainlayout = () => {
   return (
     <div>
+      <Ranking />
       <div className="datadiv">
         {Dataofpage.map((data, i) => (
           <Text data={data} key={i} />
         ))}
       </div>
+      <Committee />
+      
       <div >
         <h2 className="Awards" >
           <span className="maindivheading">Awards</span>
@@ -25,6 +30,7 @@ const Mainlayout = () => {
         </div>
       </div>
     </div>
+
   );
 };
 
