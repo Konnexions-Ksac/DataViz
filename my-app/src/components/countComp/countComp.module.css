@@ -16,10 +16,7 @@ p {
 .mainClass .mainClassRight h1 {
   font-size: 3rem;
 }
-.countCompMainDiv {
-  background: linear-gradient(180deg, #48a1c7 0%, #0b476e 100%);
-  padding-bottom: 10px;
-}
+
 .countCompMappedObject {
   display: flex;
   justify-content: space-evenly;

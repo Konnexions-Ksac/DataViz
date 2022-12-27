@@ -1,13 +1,9 @@
 import React from 'react'
-import styles from './countComp.module.css'
-import CountCompObject from './CountCompObject'
 
-const CountComp = () => {
+const countComp = () => {
   return (
-    <div className={styles.countCompMainDiv}>
-      <CountCompObject className={styles.countCompMappedObject} />
-    </div>
+    <div>countComp</div>
   )
 }
 
-export default CountComp
+export default countComp

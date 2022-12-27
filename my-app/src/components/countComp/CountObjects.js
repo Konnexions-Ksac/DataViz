@@ -1,5 +1,5 @@
 import image from '../../assets/icon 1.png'
-const countObjectData = [
+export const countObjectData = [
   {
     img: image,
     textTop: "50",
@@ -25,6 +25,4 @@ const countObjectData = [
     textTop: "50",
     textBottom: "Lorem ipsum dolor, sit amet"
   }
-]
-
-export default countObjectData
+];
