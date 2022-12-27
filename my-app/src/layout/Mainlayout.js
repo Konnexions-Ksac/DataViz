@@ -4,13 +4,13 @@ import React from 'react'
 import CountComp from '../components/countComp/CountComp'
 import countObjectData from '../components/countComp/CountObjects'
 
-const Mainlayout = (data) => {
+const Mainlayout = () => {
   return (
     <div>
       Mainlayout
       {
-        countObjectData.map((data, i =>
-          <CountComp data={data} key={i} />))
+        countObjectData.map((data, i) =>
+          <CountComp data={data} key={i} />)
       }
     </div>
   )

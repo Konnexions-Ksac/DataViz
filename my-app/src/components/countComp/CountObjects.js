@@ -1,30 +1,30 @@
 import image from '../../assets/icon 1.png'
-const arrObjects = [
+const countObjectData = [
   {
-    img: { image },
+    img: image,
     textTop: "50",
     textBottom: "Lorem ipsum dolor, sit amet"
   },
   {
-    img: { image },
+    img: image,
     textTop: "50",
     textBottom: "Lorem ipsum dolor, sit amet"
   },
   {
-    img: { image },
+    img: image,
     textTop: "50",
     textBottom: "Lorem ipsum dolor, sit amet"
   },
   {
-    img: { image },
+    img: image,
     textTop: "50",
     textBottom: "Lorem ipsum dolor, sit amet"
   },
   {
-    img: { image },
+    img: image,
     textTop: "50",
     textBottom: "Lorem ipsum dolor, sit amet"
   }
 ]
 
-export default arrObjects
+export default countObjectData
