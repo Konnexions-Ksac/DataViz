@@ -13,7 +13,7 @@ export const Dataofpage = [
   {
     img: Image2,
     heading: "Optix",
-    para: `<p><b>OPTIX CLUB</b> is a student-driven academic club of KIIT SCHOOL OF MANAGEMENT, that is dedicated to creating a plethora of opportunities for students to enhance their knowledge, understanding in the field of Operations, Business Analytics and Information Technology.</p>`,
+    para: `<p><b>OPTIX CLUB</b> is a student-driven academic club of KIIT SCHOOL OF MANAGEMENT, that is dedicated to creating a plethora of opportunities for students to enhance their knowledge, understanding in the field of Operations, Business Analytics and Information Technology.The club conducts different intra-college competitions which have some learning about the domain and helps to create interests in the classroom topics.</p>`,
   },
   {
     img: Image3,
