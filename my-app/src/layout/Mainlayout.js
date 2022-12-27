@@ -9,8 +9,8 @@ const Mainlayout = (data) => {
     <div>
       Mainlayout
       {
-        countObjectData.map(data, i =>
-          <CountComp data={data} key={i} />)
+        countObjectData.map((data, i =>
+          <CountComp data={data} key={i} />))
       }
     </div>
   )
