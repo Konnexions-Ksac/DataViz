@@ -7,6 +7,8 @@ import Cardcomp from "../components/cardcomp/Cardcomp";
 import { Dataofcard } from "../data/carddata.js";
 import Committee from "../components/Committee/Committee";
 import Ranking from "../components/Ranking/Ranking";
+import Footer from '../components/footercomp/Footer'
+
 import "./mainlayout.css"
 const Mainlayout = () => {
   return (
@@ -29,6 +31,8 @@ const Mainlayout = () => {
         ))}
         </div>
       </div>
+      <Footer />
+
     </div>
 
   );

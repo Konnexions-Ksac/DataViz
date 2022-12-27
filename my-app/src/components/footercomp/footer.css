@@ -1,0 +1,87 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+.text h2{
+    color: white;
+    font-size: 57px;
+}
+.text p{
+    color: white;
+    font-size: 29px;
+}
+
+.one{
+    background: linear-gradient(93.13deg, #48A1C7 2.01%, #0B476E 97.83%);
+}
+.two{
+    background: linear-gradient(108.11deg, rgba(217, 217, 217, 0.5) -49.43%, rgba(217, 217, 217, 0) 112.92%);
+    border-radius: 10px;
+}
+.oneee{
+    background: linear-gradient(93.13deg, #48A1C7 2.01%, #0B476E 97.83%);
+}
+
+.button1 button{
+    background: radial-gradient(123.12% 1493.79% at 3.65% 0%, #48A1C7 0%, #0B476E 100%);
+    border-radius: 10px;
+}
+.reg{
+    padding: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.reg a, .event, .last, .venue{
+    color: white;
+}
+
+.footer{
+    background: linear-gradient(92.26deg, #EDFAFF -0.77%, #BEE1F8 96.41%);
+}
+.ft{
+    background: linear-gradient(92.26deg, #EDFAFF -0.77%, #BEE1F8 96.41%);
+}
+.ft1{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 87px;
+}
+.fft2, .fft3, .fft4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+}
+.ftt2, .ftt3, .ftt4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+}
+#footer{
+    bottom: 0;
+}
+.kk{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    background: linear-gradient(92.26deg, #EDFAFF -0.77%, #BEE1F8 96.41%);
+}
