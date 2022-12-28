@@ -64,6 +64,8 @@ const Bottomfooter = () => {
 
         </div>
       </div>
+      <hr></hr>
+      <div className="endfooter"><p>Made with Love 💜 by KONNEXIONS </p></div>
     </div>
   );
 };
