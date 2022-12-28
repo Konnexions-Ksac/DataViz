@@ -1,77 +1,75 @@
 import image1 from "../../assets/user.png";
-
+import swasti from "../../assets/swasti.png";
+import sp from "../../assets/SoumyajitPaul.png";
+import ib from "../../assets/IshikaBhattacharjee.png";
+import rn from "../../assets/Rohit Nagar.png";
+import sa from "../../assets/Soumyadeep Anand.png"
+import ds from "../../assets/Dipankar Sahu.png"
+import uk from "../../assets/Uk.png"
+import pj from "../../assets/pj.png"
+import bp from "../../assets/Biswajeet Pasayat.jpg"
+import vm from "../../assets/V Mohitha.png"
 const data = [
   {
     id: 1,
-    name: "John1",
-    position: "Manager",
-    img: image1,
+    name: "Soumyadeep Anand",
+    position: "Optix Coordinator",
+    img: sa,
   },
   {
     id: 2,
-    name: "John2",
-    position: "Manager",
-    img: image1,
+    name: "Biswajeet Pasayat",
+    position: "Member(Optix)",
+    img: bp,
   },
   {
     id: 3,
-    name: "John3",
-    position: "Manager",
-    img: image1,
+    name: "Rohit Nagar",
+    position: "Member(Optix)",
+    img: rn,
   },
   {
     id: 4,
-    name: "John4",
-    position: "Manager",
-    img: image1,
+    name: "V Mohitha ",
+    position: "Member(Optix)",
+    img: vm,
   },
   {
     id: 5,
-    name: "John5",
-    position: "Manager",
-    img: image1,
+    name: "Ishika Bhattacharjee",
+    position: "Member(Optix)",
+    img: ib,
   },
   {
     id: 6,
-    name: "John6",
-    position: "Manager",
-    img: image1,
+    name: "Soumyajit Paul",
+    position: "Member(Optix)",
+    img: sp,
   },
   {
     id: 7,
-    name: "John7",
-    position: "Manager",
-    img: image1,
+    name: "Dipankar Sahu",
+    position: "Member(Optix)",
+    img: ds,
   },
   {
     id: 8,
-    name: "John8",
-    position: "Manager",
-    img: image1,
+    name: "Utkarsh Keerti",
+    position: "Coordinator(Konnexions)",
+    img: uk,
   },
   {
     id: 9,
-    name: "John9",
-    position: "Manager",
-    img: image1,
+    name: "Swasti Mishra",
+    position: "Asst. Coordinator(Konnexions)",
+    img: swasti,
   },
+
   {
     id: 10,
-    name: "John10",
-    position: "Manager",
-    img: image1,
-  },
-  {
-    id: 11,
-    name: "John11",
-    position: "Manager",
-    img: image1,
-  },
-  {
-    id: 12,
-    name: "John12",
-    position: "Manager",
-    img: image1,
+    name: "Priyanshu Jha",
+    position: "Asst. Coordinator(Konnexions)",
+    img: pj,
   },
 ];
 
