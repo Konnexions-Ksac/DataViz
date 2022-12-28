@@ -1,28 +1,33 @@
-import image from '../../assets/icon 1.png'
+// import image from '../../assets/icon 1.png'
+import society from "../../assets/Society.png"
+import schools from "../../assets/school.png"
+import winner from "../../assets/winner.png"
+import comp from "../../assets/Competition.png"
+import prize from "../../assets/prize.png"
 export const countObjectData = [
   {
-    img: image,
-    textTop: "50",
-    textBottom: "Lorem ipsum dolor, sit amet"
+    img: schools,
+    textTop: "2",
+    textBottom: "Schools"
   },
   {
-    img: image,
-    textTop: "60",
-    textBottom: "Lorem ipsum dolor, sit amet"
+    img: society,
+    textTop: "2",
+    textBottom: "Societies"
   },
   {
-    img: image,
-    textTop: "50",
-    textBottom: "Lorem ipsum dolor, sit amet"
+    img: comp,
+    textTop: "1",
+    textBottom: "Competiton"
   },
   {
-    img: image,
-    textTop: "50",
-    textBottom: "Lorem ipsum dolor, sit amet"
+    img: winner,
+    textTop: "3",
+    textBottom: "Winners"
   },
   {
-    img: image,
-    textTop: "50",
-    textBottom: "Lorem ipsum dolor, sit amet"
+    img: prize,
+    textTop: "5000",
+    textBottom: "Worth prize"
   }
 ];
