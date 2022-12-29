@@ -1,6 +1,6 @@
 import React from 'react'
 
-const button = () => {
+const buttoncomp = () => {
   return (
     <div>
       
@@ -8,4 +8,5 @@ const button = () => {
   )
 }
 
-export default button
+export default buttoncomp
+
