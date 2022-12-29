@@ -1,7 +1,6 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap");
 
-.ellipse1{
+.ellipse1 {
   border-radius: 50%;
   position: absolute;
   width: 224px;
@@ -9,22 +8,22 @@
   left: -9%;
   top: 17px;
   z-index: 0;
-  background: linear-gradient(180deg, #7BABF2 -24.52%, #48A1C7 137.26%);
+  background: linear-gradient(180deg, #7babf2 -24.52%, #48a1c7 137.26%);
   box-shadow: -3px 2px 26px 2px rgb(0 0 0 / 25%);
 }
 
-.ellipse2{
+.ellipse2 {
   position: absolute;
   width: 35px;
   height: 35px;
   left: 3%;
   top: 172px;
   border-radius: 50%;
-  background: linear-gradient(180deg, #CA7BF2 -24.52%, #B321FD 137.26%);
+  background: linear-gradient(180deg, #ca7bf2 -24.52%, #b321fd 137.26%);
   filter: blur(3px);
   z-index: 1;
 }
-.ellipse3{
+.ellipse3 {
   z-index: -1;
   position: absolute;
   width: 44px;
@@ -32,18 +31,19 @@
   left: 8%;
   top: 41px;
   border-radius: 50%;
-  background: linear-gradient(180deg, #CA7BF2 -24.52%, #B321FD 137.26%);
+  background: linear-gradient(180deg, #ca7bf2 -24.52%, #b321fd 137.26%);
   filter: blur(3.5px);
 }
-.landingdiv{
+.landingdiv {
   display: flex;
   flex-direction: column;
   /* width: 80%; */
   margin: 50px 150px;
   justify-content: space-between;
   /* align-items: center; */
+  overflow-x: hidden;
 }
-.logo{
+.logo {
   /* position: absolute; */
   z-index: 2;
   width: 250px;
@@ -53,68 +53,63 @@
   /* margin: 10px;*/
 }
 
-.upperdiv{
+.upperdiv {
   width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   z-index: 3;
 }
-.righttextdiv{
-  
+.righttextdiv {
   display: flex;
   justify-content: space-between;
   /* flex-direction: column; */
   width: 350px;
   z-index: 3;
 }
-.ellipse4
-{
+.ellipse4 {
   position: absolute;
   width: 200px;
   height: 200px;
   right: 0px;
   top: 0px;
-  background: linear-gradient(180deg, #CA7BF2 -24.52%, #B321FD 137.26%);
+  background: linear-gradient(180deg, #ca7bf2 -24.52%, #b321fd 137.26%);
   box-shadow: -3px 2px 26px 2px rgb(0 0 0 / 25%);
   z-index: -1;
   border-radius: 0 0 0 100%;
   /* -moz-border-radius: 0 0 0 100px;
   -webkit-border-radius: 0 0 0 100px; */
-  
 }
 
-.ellipse5{
+.ellipse5 {
   z-index: -2;
   position: absolute;
   width: 157px;
   height: 157px;
   top: 100px;
   right: 25px;
-  background: linear-gradient(180deg, #7BABF2 -24.52%, #48A1C7 137.26%);
+  background: linear-gradient(180deg, #7babf2 -24.52%, #48a1c7 137.26%);
   filter: blur(15px);
   border-radius: 50%;
 }
-.ellipse6
-{
+.ellipse6 {
   position: absolute;
   width: 85px;
   height: 85px;
   left: 85%;
   top: 530px;
-  background: linear-gradient(180deg, #CA7BF2 -24.52%, #B321FD 137.26%);
+  background: linear-gradient(180deg, #ca7bf2 -24.52%, #b321fd 137.26%);
   box-shadow: -3px 2px 26px 2px rgb(0 0 0 / 25%);
   border-radius: 50%;
   z-index: -1;
 }
-.ellipse7
-{
+.ellipse7 {
   position: absolute;
   width: 75px;
   height: 75px;
   /* left: 90%; */
   top: 500px;
-  background: linear-gradient(180deg, #CA7BF2 -24.52%, #2179fd 137.26%);
+  background: linear-gradient(180deg, #ca7bf2 -24.52%, #2179fd 137.26%);
   box-shadow: -3px 2px 26px 2px rgb(0 0 0 / 25%);
   border-radius: 50%;
   z-index: -1;
@@ -143,19 +138,18 @@
   margin-bottom: 10px;
   display: flex;
 } */
-.lowerdiv{
+.lowerdiv {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.lowerleftdiv{
+.lowerleftdiv {
   display: flex;
   flex-direction: column;
   /* justify-content: space-evenly; */
 }
 .text1 {
- 
-  font-family: 'Libre Baskerville';
+  font-family: "Libre Baskerville";
   /* font-style: normal; */
   font-weight: 700;
   font-size: 45px;
@@ -172,18 +166,18 @@
   width: 250px;
 } */
 .text2 {
-  font-family: 'Libre Baskerville';
+  font-family: "Libre Baskerville";
   /* font-style: normal; */
   font-weight: 700;
   font-size: 85px;
   line-height: 100px;
-  background: linear-gradient(180deg, #48A1C7 0%, rgb(0, 0, 0) 100%);
+  background: linear-gradient(180deg, #48a1c7 0%, rgb(0, 0, 0) 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
 }
 
- .text3 {
-  font-family: 'Roboto';
+.text3 {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -191,13 +185,12 @@
   /* text-align: left; */
   color: #000000;
 }
-.rightimage{
+.rightimage {
   width: 500px;
   padding-top: 80px;
   padding: 10px;
-
 }
-.lowerdivcoll{
+.lowerdivcoll {
   display: flex;
   /* flex-direction: column; */
   justify-content: space-between;
@@ -205,13 +198,13 @@
   text-align: center;
   align-items: center;
 }
-.logo_konn{
+.logo_konn {
   width: 120px;
 }
-.logo_op{
+.logo_op {
   width: 80px;
 }
-.lowerdivinnercoll{
+.lowerdivinnercoll {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
@@ -263,33 +256,94 @@
   height: 80px;
   left: 685px;
   top: 597px;
-  background: radial-gradient(123.12% 1493.79% at 3.65% 0%, #48A1C7 0%, #0B476E 100%);
+  background: radial-gradient(
+    123.12% 1493.79% at 3.65% 0%,
+    #48a1c7 0%,
+    #0b476e 100%
+  );
   border-radius: 10px;
   border-color: transparent;
-} 
+}
 @media only screen and (max-width: 1430px) {
-  .ellipse6
-  {
+  .ellipse6 {
     display: none;
   }
-  .ellipse7
-  {
+  .ellipse7 {
     display: none;
   }
 }
 @media only screen and (max-width: 1405px) {
-  .lowerdiv
-  {
+  .lowerdiv {
     justify-content: center;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 992px) {
   .landingdiv {
-    margin:50px 10vw; 
+    margin: 50px 10vw;
   }
-  .lowerleftdiv *{
+  .lowerleftdiv * {
     line-height: normal;
     z-index: 3;
+  }
+  .upperdiv {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lowerdiv {
+    text-align: center;
+  }
+  .lowerleftdiv {
+    align-items: center;
+  }
+  .righttextdiv,
+  .lowerdivcoll,
+  .text1 {
+    margin-top: 50px;
+  }
+
+  .lowerleftdiv button {
+    margin-top: 50px;
+  }
+}
+
+/* @media only screen and (max-width: 750px) {
+  .righttextdiv,
+  .lowerdivcoll,
+  .text1 {
+    margin-top: 30px;
+  }
+
+  .lowerleftdiv button {
+    margin-top: 30px;
+  }
+} */
+
+@media only screen and (max-width: 450px) {
+  .text1 {
+    font-size: 25px;
+  }
+  .text2 {
+    font-size: 45px;
+  }
+  .text3 {
+    font-size: 15px;
+  }
+  .lowerleftdiv button {
+    width: 250px;
+    height: 50px;
+  }
+  .lowerdivcoll {
+    width: 300px;
+  }
+  .lowerdivcoll p {
+    font-size: 10px;
+  }
+  .logo_konn {
+    width: 80px;
+  }
+  .logo_op {
+    width: 60px;
   }
 }
