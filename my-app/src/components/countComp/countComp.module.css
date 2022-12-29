@@ -41,11 +41,11 @@
 
 @media only screen and (min-width: 1001px) and (max-width: 1200px) {
   .mainClassRighth1 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-align: left;
   }
   .mainClassRightp {
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: left;
   }
   .countimg{
@@ -57,10 +57,10 @@
 
 @media only screen and (min-width: 751px) and (max-width: 1000px) {
   .mainClassRighth1 {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
  .mainClassRightp {
-    font-size: 0.75rem;
+    font-size: 0.95rem;
   }
   .countimg {
     width: 55px;
