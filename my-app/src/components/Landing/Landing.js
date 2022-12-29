@@ -17,25 +17,7 @@ const Landing = () => {
           <div className="ellipse4"></div>
           <div className="ellipse5"></div>
         </div>
-        {/* <div className="landing_body_main">
-          <div>
-              <div className="logo"><img src={kiit_logo} alt="gku"></img></div>
-              <div className="event_date">
-                <div><p>Event Date: 14 th January 2023</p></div>
-                <div><p>Venue: KSOM premises at Kautilya Hall.</p></div>
-              </div>
-          </div>
-          <div className="landing_body">
-        <div className="landing_body_left">
-          <div className="text1">Data Visualization Competition</div>
-          <div className="text2">DataViz</div>
-          <div className="text3">For those who want to foster there knowledge.</div>
-        </div>
-        <div className="landing_body_right">
-          <img src={man} alt="ud"></img>
-        </div>
-      </div>
-        </div> */}
+   
         <div className="landingdiv">
           <div className="upperdiv">
             <div>
@@ -71,7 +53,9 @@ const Landing = () => {
               <div className="text3">
                 For those who want to foster there knowledge.
               </div>
-              <button>click here</button>
+              <a href="https://my.forms.app/form/639ad4142db11127ce0c4f4f" className="reglink" target="_blank">
+              <button className="regbutton">click here</button>
+              </a>
               <div className="lowerdivcoll">
                 <div>
                   <p><i>In collaboration with:</i></p>

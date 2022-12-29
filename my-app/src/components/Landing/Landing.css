@@ -23,6 +23,7 @@
   filter: blur(3px);
   z-index: 1;
 }
+
 .ellipse3 {
   z-index: -1;
   position: absolute;
@@ -34,6 +35,7 @@
   background: linear-gradient(180deg, #ca7bf2 -24.52%, #b321fd 137.26%);
   filter: blur(3.5px);
 }
+
 .landingdiv {
   display: flex;
   flex-direction: column;
@@ -43,6 +45,7 @@
   /* align-items: center; */
   overflow-x: hidden;
 }
+
 .logo {
   /* position: absolute; */
   z-index: 2;
@@ -60,6 +63,7 @@
   /* flex-wrap: wrap; */
   z-index: 3;
 }
+
 .righttextdiv {
   display: flex;
   justify-content: space-between;
@@ -67,6 +71,7 @@
   width: 350px;
   z-index: 3;
 }
+
 .ellipse4 {
   position: absolute;
   width: 200px;
@@ -92,6 +97,7 @@
   filter: blur(15px);
   border-radius: 50%;
 }
+
 .ellipse6 {
   position: absolute;
   width: 85px;
@@ -103,6 +109,7 @@
   border-radius: 50%;
   z-index: -1;
 }
+
 .ellipse7 {
   position: absolute;
   width: 75px;
@@ -114,6 +121,7 @@
   border-radius: 50%;
   z-index: -1;
 }
+
 /*
 .event_date{
   position: absolute;
@@ -143,11 +151,13 @@
   justify-content: space-between;
   /* flex-wrap: wrap; */
 }
+
 .lowerleftdiv {
   display: flex;
   flex-direction: column;
   /* justify-content: space-evenly; */
 }
+
 .text1 {
   font-family: "Libre Baskerville";
   /* font-style: normal; */
@@ -158,6 +168,7 @@
   /* text-align: left; */
   color: #000000;
 }
+
 /* .pgheading{
   display: flex;
   align-items: flex-end;
@@ -185,11 +196,13 @@
   /* text-align: left; */
   color: #000000;
 }
+
 .rightimage {
   width: 500px;
   padding-top: 80px;
   padding: 10px;
 }
+
 .lowerdivcoll {
   display: flex;
   /* flex-direction: column; */
@@ -198,17 +211,21 @@
   text-align: center;
   align-items: center;
 }
+
 .logo_konn {
   width: 120px;
 }
+
 .logo_op {
   width: 80px;
 }
+
 .lowerdivinnercoll {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
+
 /*
 .landing_body_main{
   display: flex;
@@ -248,7 +265,7 @@
   border-radius: 10px;
   border-color: transparent;
 } */
-.lowerleftdiv button {
+.regbutton {
   color: white;
   /* margin-top: 70px; */
   margin-bottom: 50px;
@@ -257,173 +274,215 @@
   height: 80px;
   left: 685px;
   /* top: 550px; */
-  background: radial-gradient(
-    123.12% 1493.79% at 3.65% 0%,
-    #48a1c7 0%,
-    #0b476e 100%
-  );
+  background: radial-gradient(123.12% 1493.79% at 3.65% 0%,
+      #48a1c7 0%,
+      #0b476e 100%);
   border-radius: 10px;
   border-color: transparent;
 }
+.reglink:hover{
+  cursor: auto;
+}
+.regbutton:hover {
+cursor:pointer;
+}
+
 @media only screen and (max-width: 1430px) {
   .ellipse6 {
     display: none;
   }
+
   .ellipse7 {
     display: none;
   }
 }
+
 @media only screen and (max-width: 1405px) {
+
   /* .lowerdiv {
     justify-content: center;
   } */
-  .rightimage{
-    width: 450px ;
+  .rightimage {
+    width: 450px;
     padding-top: 70px;
   }
 }
+
 @media only screen and (max-width: 1355px) {
-.text1,.text2,.text3{
-  line-height: 4.5rem;
+
+  .text1,
+  .text2,
+  .text3 {
+    line-height: 4.5rem;
+  }
+
+  .text1 {
+    font-size: 2.5rem;
+  }
+
+  .text2 {
+    font-size: 4.5rem;
+  }
+
+  .regbutton {
+    margin-top: 30px;
+  }
 }
-.text1{
-  font-size: 2.5rem;
-}
-.text2{
-  font-size: 4.5rem;
-}
-button{
-margin-top: 30px;
-}
-}
+
 @media only screen and (max-width: 1289px) {
-  .text1{
+  .text1 {
     font-size: 2.3rem;
     line-height: normal;
 
   }
-  .text2{
+
+  .text2 {
     font-size: 4rem;
     margin: 20px 0;
   }
- 
+
 }
+
 @media only screen and (max-width: 1215px) {
 
-.text3{
-  line-height: normal;
-  margin-top: 20px;
+  .text3 {
+    line-height: normal;
+    margin-top: 20px;
+  }
+
+  .ellipse3 {
+    left: 20%
+  }
 }
-.ellipse3{
-  left:20%
-}
-}
+
 @media only screen and (max-width: 1115px) {
-.lowerdiv{
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
+  .lowerdiv {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .lowerleftdiv {
+    align-items: center;
+  }
+
+  .regbutton {
+    margin-top: 70px;
+  }
+
 }
 
-.lowerleftdiv {
-  align-items: center;
-}
-button{
-  margin-top: 70px;
-}
-
-}
 @media only screen and (max-width: 992px) {
   .landingdiv {
     margin: 50px 10vw;
   }
+
   .lowerleftdiv * {
     line-height: normal;
     z-index: 3;
   }
+
   .upperdiv {
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
+
   .lowerdiv {
     text-align: center;
   }
+
   .lowerleftdiv {
     align-items: center;
   }
+
   .righttextdiv,
- 
+
   .text1 {
     margin-top: 50px;
   }
 
-  .lowerleftdiv button {
+  .regbutton {
     margin-top: 50px;
   }
 }
 
 
 @media only screen and (max-width: 750px) {
-  .ellipse1{
+  .ellipse1 {
     width: 200px;
     height: 200px;
-    left:-15%;
+    left: -15%;
     top: 0;
   }
-  .ellipse3{
-    left:20%
+
+  .ellipse3 {
+    left: 20%
   }
 }
+
 @media only screen and (max-width: 550px) {
-  .ellipse1{
+  .ellipse1 {
     width: 150px;
     height: 150px;
   }
-  .rightimage{
+
+  .rightimage {
     display: none;
   }
-  .ellipse5{
-    top:50px;
+
+  .ellipse5 {
+    top: 50px;
   }
-  .ellipse4{
+
+  .ellipse4 {
     width: 170px;
     height: 170px;
   }
 }
+
 @media only screen and (max-width: 450px) {
   .text1 {
     font-size: 25px;
   }
+
   /* .righttextdiv{
     z-index: 300;
   } */
-  .ellipse2{
-    top:140px;
+  .ellipse2 {
+    top: 140px;
   }
+
   .text2 {
     font-size: 55px;
   }
+
   .text3 {
     font-size: 20px;
   }
-  .lowerleftdiv button {
+
+  .regbutton {
     width: 270px;
     height: 50px;
   }
+
   .lowerdivcoll {
     width: 300px;
   }
+
   .lowerdivcoll p {
     font-size: 10px;
   }
+
   .logo_konn {
     width: 80px;
   }
+
   .logo_op {
     width: 60px;
   }
-  .righttextdiv{
+
+  .righttextdiv {
     font-size: 12px;
     justify-content: space-evenly;
   }
