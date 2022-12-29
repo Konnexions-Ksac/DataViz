@@ -28,8 +28,6 @@ const Mainlayout = () => {
           <CountCompObject data={data} key={i} />
         ))}
       </div>
-     
-      
 
       <div>
         <h2 className="Awards">
