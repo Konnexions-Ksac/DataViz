@@ -57,7 +57,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   z-index: 3;
 }
 .righttextdiv {
@@ -141,7 +141,7 @@
 .lowerdiv {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 .lowerleftdiv {
   display: flex;
@@ -250,12 +250,13 @@
 } */
 .lowerleftdiv button {
   color: white;
-  margin-top: 70px;
+  /* margin-top: 70px; */
+  margin-bottom: 50px;
   font-size: 35px;
   width: 371px;
   height: 80px;
   left: 685px;
-  top: 597px;
+  /* top: 550px; */
   background: radial-gradient(
     123.12% 1493.79% at 3.65% 0%,
     #48a1c7 0%,
@@ -273,11 +274,65 @@
   }
 }
 @media only screen and (max-width: 1405px) {
-  .lowerdiv {
+  /* .lowerdiv {
     justify-content: center;
+  } */
+  .rightimage{
+    width: 450px ;
+    padding-top: 70px;
   }
 }
+@media only screen and (max-width: 1355px) {
+.text1,.text2,.text3{
+  line-height: 4.5rem;
+}
+.text1{
+  font-size: 2.5rem;
+}
+.text2{
+  font-size: 4.5rem;
+}
+button{
+margin-top: 30px;
+}
+}
+@media only screen and (max-width: 1289px) {
+  .text1{
+    font-size: 2.3rem;
+    line-height: normal;
 
+  }
+  .text2{
+    font-size: 4rem;
+    margin: 20px 0;
+  }
+ 
+}
+@media only screen and (max-width: 1215px) {
+
+.text3{
+  line-height: normal;
+  margin-top: 20px;
+}
+.ellipse3{
+  left:20%
+}
+}
+@media only screen and (max-width: 1115px) {
+.lowerdiv{
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.lowerleftdiv {
+  align-items: center;
+}
+button{
+  margin-top: 70px;
+}
+
+}
 @media only screen and (max-width: 992px) {
   .landingdiv {
     margin: 50px 10vw;
@@ -298,7 +353,7 @@
     align-items: center;
   }
   .righttextdiv,
-  .lowerdivcoll,
+ 
   .text1 {
     margin-top: 50px;
   }
@@ -308,30 +363,52 @@
   }
 }
 
-/* @media only screen and (max-width: 750px) {
-  .righttextdiv,
-  .lowerdivcoll,
-  .text1 {
-    margin-top: 30px;
-  }
 
-  .lowerleftdiv button {
-    margin-top: 30px;
+@media only screen and (max-width: 750px) {
+  .ellipse1{
+    width: 200px;
+    height: 200px;
+    left:-15%;
+    top: 0;
   }
-} */
-
+  .ellipse3{
+    left:20%
+  }
+}
+@media only screen and (max-width: 550px) {
+  .ellipse1{
+    width: 150px;
+    height: 150px;
+  }
+  .rightimage{
+    display: none;
+  }
+  .ellipse5{
+    top:50px;
+  }
+  .ellipse4{
+    width: 170px;
+    height: 170px;
+  }
+}
 @media only screen and (max-width: 450px) {
   .text1 {
     font-size: 25px;
   }
+  /* .righttextdiv{
+    z-index: 300;
+  } */
+  .ellipse2{
+    top:140px;
+  }
   .text2 {
-    font-size: 45px;
+    font-size: 55px;
   }
   .text3 {
-    font-size: 15px;
+    font-size: 20px;
   }
   .lowerleftdiv button {
-    width: 250px;
+    width: 300px;
     height: 50px;
   }
   .lowerdivcoll {
@@ -345,5 +422,9 @@
   }
   .logo_op {
     width: 60px;
+  }
+  .righttextdiv{
+    font-size: 12px;
+    justify-content: space-evenly;
   }
 }

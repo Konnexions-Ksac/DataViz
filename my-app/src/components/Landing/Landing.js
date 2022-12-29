@@ -65,10 +65,7 @@ const Landing = () => {
             <div className="lowerleftdiv">
               <div className="text1">
                 Data Visualization Competition
-                {/* <div><img
-          src={stroke}
-          className="stroke"
-          /></div> */}
+             
               </div>
               <div className="text2">DataViz</div>
               <div className="text3">
