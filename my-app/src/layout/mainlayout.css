@@ -1,3 +1,27 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.datadiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Awards {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.awardsdiv {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 30px;
+}
 .countCompMainDiv {
   background: linear-gradient(180deg, #48a1c7 0%, #0b476e 100%);
   padding: 10px 0;
@@ -8,5 +32,14 @@
 @media only screen and (max-width: 750px) {
   .countCompMainDiv {
     display: block;
+
+@media only screen and (max-width: 1095px) {
+  .awardsdiv {
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+  .Awards {
+    text-align: center;
+    font-size: 40px;
   }
 }

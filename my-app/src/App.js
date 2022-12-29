@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
+=======
+>>>>>>> main
 import React from 'react';
 import './App.css';
 
