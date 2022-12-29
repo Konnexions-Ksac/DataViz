@@ -1,8 +1,6 @@
 .mainClass {
-  /* background-color: black; */
   display: flex;
   justify-content: space-evenly;
-  /* width: 18%; */
 }
 img {
   width: 100px;
