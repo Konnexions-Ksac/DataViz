@@ -9,7 +9,6 @@ import styles from './mainlayout.css'
 const Mainlayout = () => {
   return (
     <div>
-      Mainlayout
       <div className='countCompMainDiv'>
         {
           countObjectData.map((data, i) =>
