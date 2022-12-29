@@ -16,12 +16,13 @@ const Mainlayout = () => {
   return (
   
     <div>
-      <div>
-    <Landing/>
-    </div>
+      
+    <div><Landing/></div>
+    
     <div className="rankingdiv">
       <Ranking />
       </div>
+      
       <div className="datadiv">
         {Dataofpage.map((data, i) => (
           <Text data={data} key={i} />

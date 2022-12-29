@@ -10,7 +10,7 @@ const Bottomfooter = () => {
           <div className="uppfooterleft">
             <div>
               <p className="uppfooterleftp1">EXCITED???</p>
-              <p className="uppfooterleftp2">YAAAAY!!!</p>
+              {/* <p className="uppfooterleftp2">...............</p> */}
             </div>
 
             <div>
@@ -67,7 +67,7 @@ const Bottomfooter = () => {
         </div>
       </div>
       <hr></hr>
-      <div className="endfooter"><p>Made with Love 💜 by KONNEXIONS </p></div>
+      <div className="endfooter"><p>Made by KONNEXIONS (IT and Web Society) </p></div>
     </div>
   );
 };

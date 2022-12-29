@@ -21,31 +21,7 @@
   justify-content: space-around;
   padding: 0 30px;
 }
-@media only screen and (max-width: 1115px) {
-.rankingdiv{
-  margin-top: 400px;
-}
-}
-@media only screen and (max-width: 992px) {
-  .rankingdiv{
-    margin-top: 470px;
-  }
-  }
-  @media only screen and (max-width: 620px) {
-    .rankingdiv{
-      margin-top: 530px;
-    }
-    }
-    @media only screen and (max-width: 550px) {
-      .rankingdiv{
-        margin-top: 150px;
-      }
-      }
-      @media only screen and (max-width: 450px) {
-        .rankingdiv{
-          margin-top: 50px;
-        }
-        }
+      
 .countCompMainDiv {
   background: linear-gradient(180deg, #48a1c7 0%, #0b476e 100%);
   padding: 20px 0;
