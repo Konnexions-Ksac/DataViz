@@ -53,7 +53,7 @@ const Landing = () => {
                 For those who want to foster there knowledge.
               </div>
               <a href="https://my.forms.app/form/639ad4142db11127ce0c4f4f" className="reglink" target="_blank">
-              <button className="regbutton">click here</button>
+              <button className="regbutton">Click to Register</button>
               </a>
               <div className="lowerdivcoll">
                 <div>

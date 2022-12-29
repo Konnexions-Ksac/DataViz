@@ -475,6 +475,7 @@ cursor:pointer;
   .regbutton {
     width: 270px;
     height: 50px;
+    font-size: 1.5rem;
   }
 
   .lowerdivcoll {
