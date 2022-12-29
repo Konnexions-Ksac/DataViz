@@ -88,6 +88,22 @@ justify-content: space-between;
     font-family:'Libre Baskerville';
     letter-spacing: 0.2px;
 }
+/* .reglink:hover{
+    cursor: auto;
+  } */
+  .button {
+    color: white;
+    font-size: 25px;
+    width: 250px;
+    height: 60px;
+    background: radial-gradient(123.12% 1493.79% at 3.65% 0%, #48A1C7 0%, #0B476E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+    border-radius: 10px;
+    border-color: transparent;
+  }
+  .button:hover{
+    cursor: pointer;
+  }
 @media only screen and (max-width:1095px){
     .footerupperdiv{
     flex-wrap: wrap;

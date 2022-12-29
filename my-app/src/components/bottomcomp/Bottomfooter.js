@@ -9,12 +9,14 @@ const Bottomfooter = () => {
         <div className="footerupperdiv">
           <div className="uppfooterleft">
             <div>
-              <p className="uppfooterleftp1">EXCITED?</p>
+              <p className="uppfooterleftp1">EXCITED???</p>
               <p className="uppfooterleftp2">YAAAAY!!!</p>
             </div>
 
             <div>
+            <a href="https://my.forms.app/form/639ad4142db11127ce0c4f4f"  target="_blank">
               <button className="button">Click to register</button>
+              </a>
             </div>
           </div>
           <div className="uppfooterright">
