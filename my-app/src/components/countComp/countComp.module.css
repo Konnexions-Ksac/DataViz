@@ -47,7 +47,6 @@ p {
   .countCompMappedObject .mainClass .mainClassRight p {
     font-size: 0.8rem;
     text-align: left;
-
   }
   img {
     width: 70px;
@@ -70,12 +69,6 @@ p {
   }
 }
 
-@media only screen and (min-width: 401px) and (max-width: 750px) {
-  .countCompMappedObject {
-    width: 100%;
-  }
-}
-
 @media only screen and (max-width: 400px) {
   .countCompMappedObject .mainClass .mainClassRight h1 {
     font-size: 1.5rem;
@@ -87,6 +80,19 @@ p {
     width: 70px;
     height: 70px;
     margin-right: 12px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .countCompMappedObject .mainClass .mainClassRight,
+  .mainClassLeft {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mainClass {
+    justify-content: center;
   }
   .countCompMappedObject {
     width: 100%;
