@@ -1,7 +1,7 @@
 import React from "react";
 import "./bottomfooter.css";
-import logokonn from "../../assets/konnections logo.png"
-import logopp from "../../assets/Optics logo.png"
+import logokonn from "../../assets/konnexions_logo.png"
+import logopp from "../../assets/Optix_logo.png"
 const Bottomfooter = () => {
   return (
     <div>

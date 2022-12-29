@@ -1,6 +1,5 @@
 // call your components here
 //style them in mainlayout.css
-
 import React from "react";
 import Text from "../components/textcomp/Text";
 import { Dataofpage } from "../data/data.js";
@@ -11,10 +10,13 @@ import Ranking from "../components/Ranking/Ranking";
 import Bottomfooter from "../components/bottomcomp/Bottomfooter";
 import { countObjectData } from "../components/countComp/CountObjects";
 import CountCompObject from "../components/countComp/CountCompObject";
+import Landing from '../components/Landing/Landing';
 import "./mainlayout.css";
 const Mainlayout = () => {
   return (
+  
     <div>
+    <Landing/>
       <Ranking />
       <div className="datadiv">
         {Dataofpage.map((data, i) => (
