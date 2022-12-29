@@ -38,7 +38,7 @@ const Committee = () => {
                   className={`slide ${id < value && "slide-invisible"}`}
                 >
                   <div className="slide-img">
-                    <img src={img} alt="slide-img" />
+                    <img src={img} alt="slide-img" className="slideimage" />
                   </div>
                   <div className="slide-info">
                     <h4>{name}</h4>
