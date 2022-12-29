@@ -1,9 +1,9 @@
-import React from 'react'
+// import React from 'react'
 
-const countComp = () => {
-  return (
-    <div>countComp</div>
-  )
-}
+// const countComp = () => {
+//   return (
+//     <div>countComp</div>
+//   )
+// }
 
-export default countComp
+// export default countComp

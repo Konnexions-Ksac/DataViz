@@ -7,11 +7,12 @@ const CountCompObject = ({ data }) => {
     <div className={styles.countCompMappedObject}>
       <div className={styles.mainClass}>
         <div className={styles.mainClassLeft}>
-          <img src={data.img} />
+          <img src={data.img} 
+          className={styles.countimg} />
         </div>
         <div className={styles.mainClassRight}>
-          <h1>{data.textTop}</h1>
-          <p>{data.textBottom}</p>
+          <h1 className={styles.mainClassRighth1}>{data.textTop}</h1>
+          <p className={styles.mainClassRightp}>{data.textBottom}</p>
         </div>
       </div>
     </div>

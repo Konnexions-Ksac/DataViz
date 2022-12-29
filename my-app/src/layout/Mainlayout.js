@@ -21,12 +21,15 @@ const Mainlayout = () => {
           <Text data={data} key={i} />
         ))}
       </div>
+      <Committee />
+
       <div className="countCompMainDiv">
         {countObjectData.map((data, i) => (
           <CountCompObject data={data} key={i} />
         ))}
       </div>
-      <Committee />
+     
+      
 
       <div>
         <h2 className="Awards">

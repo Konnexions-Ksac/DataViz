@@ -1,4 +1,3 @@
-
 * {
   padding: 0;
   margin: 0;
@@ -22,22 +21,27 @@
   justify-content: space-around;
   padding: 0 30px;
 }
+
 .countCompMainDiv {
   background: linear-gradient(180deg, #48a1c7 0%, #0b476e 100%);
   padding: 10px 0;
   display: flex;
+  margin-bottom: 60px;
   justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 750px) {
   .countCompMainDiv {
     display: block;
+  }
+}
 
 @media only screen and (max-width: 1095px) {
   .awardsdiv {
     flex-wrap: wrap;
     padding: 50px;
   }
+
   .Awards {
     text-align: center;
     font-size: 40px;

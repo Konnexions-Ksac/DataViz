@@ -2,16 +2,18 @@
   display: flex;
   justify-content: space-evenly;
 }
-img {
+.countimg {
   width: 100px;
   height: 100px;
   margin-right: 15px;
 }
-.countCompMappedObject .mainClass .mainClassRight h1,
-p {
-  color: white;
+.mainClassRighth1{
+  color:white;
 }
-.countCompMappedObject .mainClass .mainClassRight h1 {
+.mainClassRightp{
+  color:white;
+}
+.mainClassRighth1{
   font-size: 3rem;
 }
 
@@ -38,15 +40,15 @@ p {
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1200px) {
-  .countCompMappedObject .mainClass .mainClassRight h1 {
+  .mainClassRighth1 {
     font-size: 1.5rem;
     text-align: left;
   }
-  .countCompMappedObject .mainClass .mainClassRight p {
+  .mainClassRightp {
     font-size: 0.8rem;
     text-align: left;
   }
-  img {
+  .countimg{
     width: 70px;
     height: 70px;
     margin-right: 12px;
@@ -54,13 +56,13 @@ p {
 }
 
 @media only screen and (min-width: 751px) and (max-width: 1000px) {
-  .countCompMappedObject .mainClass .mainClassRight h1 {
+  .mainClassRighth1 {
     font-size: 1rem;
   }
-  .countCompMappedObject .mainClass .mainClassRight p {
+ .mainClassRightp {
     font-size: 0.75rem;
   }
-  img {
+  .countimg {
     width: 55px;
     height: 55px;
     margin-right: 10px;
@@ -68,13 +70,13 @@ p {
 }
 
 @media only screen and (max-width: 400px) {
-  .countCompMappedObject .mainClass .mainClassRight h1 {
+  .mainClassRighth1 {
     font-size: 1.5rem;
   }
-  .countCompMappedObject .mainClass .mainClassRight p {
+ .mainClassRightp {
     font-size: 0.8rem;
   }
-  img {
+  .countimg{
     width: 70px;
     height: 70px;
     margin-right: 12px;
