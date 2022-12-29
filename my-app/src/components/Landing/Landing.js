@@ -2,7 +2,6 @@ import React from "react";
 import "./Landing.css";
 import kiit_logo from "../../assets/kiit_logo.png";
 import man from "../../assets/27.png";
-import stroke from "../../assets/Stroke.png";
 import logoKonn from "../../assets/konnexions_logo.png";
 import logoOp from "../../assets/Optix_logo.png";
 const Landing = () => {

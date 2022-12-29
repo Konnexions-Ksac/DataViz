@@ -1,0 +1,100 @@
+.mainClass {
+  display: flex;
+  justify-content: space-evenly;
+}
+.countimg {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+}
+.mainClassRighth1{
+  color:white;
+}
+.mainClassRightp{
+  color:white;
+}
+.mainClassRighth1{
+  font-size: 3rem;
+}
+
+.countCompMappedObject {
+  display: flex;
+  justify-content: space-evenly;
+  width: 18%;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 750px) {
+  .countCompMappedObject {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .countCompMappedObject {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+  .mainClassRighth1 {
+    font-size: 1.7rem;
+    text-align: left;
+  }
+  .mainClassRightp {
+    font-size: 1rem;
+    text-align: left;
+  }
+  .countimg{
+    width: 70px;
+    height: 70px;
+    margin-right: 12px;
+  }
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1000px) {
+  .mainClassRighth1 {
+    font-size: 1.3rem;
+  }
+ .mainClassRightp {
+    font-size: 0.95rem;
+  }
+  .countimg {
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .mainClassRighth1 {
+    font-size: 1.5rem;
+  }
+ .mainClassRightp {
+    font-size: 0.8rem;
+  }
+  .countimg{
+    width: 70px;
+    height: 70px;
+    margin-right: 12px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .countCompMappedObject .mainClass .mainClassRight,
+  .mainClassLeft {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mainClass {
+    justify-content: center;
+  }
+  .countCompMappedObject {
+    width: 100%;
+  }
+}
