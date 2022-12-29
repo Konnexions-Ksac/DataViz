@@ -59,8 +59,8 @@ const Bottomfooter = () => {
         </div>
         <div className="lowerfooterright">
             <div><p><i>In collaboration with:</i></p></div>
-            <div className="imglogo"><img src={logokonn}/></div>
-            <div className="imglogo"><img src ={logopp}/></div>
+            <div ><img src={logokonn} className="imglogo"/></div>
+            <div><img src ={logopp}  className="imglogo"/></div>
 
         </div>
       </div>

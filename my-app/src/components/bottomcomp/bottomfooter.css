@@ -57,7 +57,7 @@ linear-gradient(99.46deg, #ffffff7b -2.14%, rgba(0, 0, 0, 0) 100%);
     flex-direction: column;
     justify-content: space-between;
 }
-.imglogo img{
+.imglogo {
     width: 120px;
 }
 .lowerfootermaindiv{
@@ -126,7 +126,7 @@ justify-content: space-between;
 
 }
 @media only screen and (max-width:550px){
-    .imglogo img{
+    .imglogo {
         width: 90px;
     }
 }

@@ -5,7 +5,7 @@ const Cardcomp = ({data}) => {
     <div className="maindiv">
       <div className="innerdiv">
         <div className="medalimg">
-        <img src={data.img} className="img" />
+        <img src={data.img} className="imagecard" />
         </div>
         <div>
         <p
