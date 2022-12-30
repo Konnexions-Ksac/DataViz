@@ -14,6 +14,7 @@
   height: 100%;
 }
 .rankingheading{
+  padding-top: 2rem;
   font-family: "Libre Baskerville";
   line-height: 50px;
   font-size: 2.5rem;
