@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import "./Committee.css";
 import data from "./committeeData";
@@ -20,10 +20,16 @@ const Committee = () => {
     }
   };
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      handleRight();
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [value]);
+
   return (
     <div className="committee">
       <div className="section-container">
-        
         <div className="committe-container">
           <button onClick={handleLeft} className="slider-btn">
             <MdKeyboardArrowLeft />
