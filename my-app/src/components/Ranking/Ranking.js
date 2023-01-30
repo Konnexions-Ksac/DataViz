@@ -5,7 +5,7 @@ const Ranking = () => {
   return (
     <div className="ranking">
       <div className="rankingheading"><p>Leader Board</p>
-//       <p className="rankingheadinginn"><i>Coming Soon!!</i></p></div>
+
       <div className="ranking-container">
         <div className="box-container container-2">
           <div className="title title-1">
