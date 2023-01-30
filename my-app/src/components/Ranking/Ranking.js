@@ -53,6 +53,7 @@ const Ranking = () => {
         </div>
       </div>
     </div>
+    </div>
   );
 };
 
